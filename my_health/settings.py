@@ -97,7 +97,7 @@ DJOSER = {
 # 'PAGE_SIZE': 10
 SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('JWT',),
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=10),
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=200),
 }
 
 ROOT_URLCONF = 'my_health.urls'
